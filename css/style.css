@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+#home {
+  
+    height: 77rem;
+    background-image: url("../images/bg_header.jpg");
+    background-position: center;
+    background-size: cover;
+
+    }
+
+  .offcanvas-body{
+    width: 250PX;
+  }
+
+.h1{
+    font-size: 4rem;
+    margin-top: 12rem;
+}
+
+.menu{
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.p{
+    font-family: Roboto;
+}
+
+.Mountain{
+    font-size: 6rem;
+}
+
+.offcanvas.offcanvas-start.widht-10{
+    width: 12%;
+}
+
+#about {
+
+    background-image: url("/images/bg_nuage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-cyan{
+    background-color: #00dffc88;
+}
+
+.w-30{
+    width: 30%;
+}
+
+#history {
+    background-image: url("../images/bg_appareil_photo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.italic {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rokkitt', serif;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+#photos {
+    background-color: rgb(207, 201, 201);
+}
+
+#contact {
+   background-image: url(/images/bg_newsletter.jpg);
+   
+  
+}
+
+#blog {
+   background-color: #ffffff;
+}
+
+#photos {
+   background-color: #dddddd;
+}
+
+footer {
+   background-color: #24323b;
+}
+
+#myBtn {
+   display: none; /* Hidden by default */
+   position: fixed; /* Fixed/sticky position */
+   bottom: 20px; /* Place the button at the bottom of the page */
+   right: 30px; /* Place the button 30px from the right */
+   z-index: 99; /* Make sure it does not overlap */
+   background: none;
+   border: none;
+}
+
+@media (max-width: 768px) {
+   header h1, .Mountain {
+       font-size: 3rem;
+   }
+
+   #blog img {
+       width: 23rem;
+   }
+
+   
+}
